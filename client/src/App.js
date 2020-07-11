@@ -13,7 +13,7 @@ const App = () => {
 	const [movieList, setMovieList] = useState([]);
 	const WrapperDiv = styled.div`
 		width: 100vw;
-		height: 100vh;
+		height: 100%;
 		background-image: url(${What_to_watch});
 	`;
 	useEffect(() => {
